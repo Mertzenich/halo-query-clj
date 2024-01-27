@@ -1,0 +1,63 @@
+* Halo Server Query
+
+A Clojure library designed to query Halo Custom Edition servers.
+
+* Usage
+
+#+begin_src clojure
+(require '[halo-query.core :as halo])
+
+(halo/query "216.128.147.196" 2302)
+=> {:maxplayers 16,
+    :game_classic false,
+    :nextmode "",
+    :vehicle-flags
+    {:vehicle-respawn 60, :red-vehicle-set "Custom", :blue-vehicle-set "Default"},
+    :password false,
+    :queryid "1.1",
+    :fraglimit 50,
+    :numplayers 1,
+    :gamemode "openplaying",
+    :hostname "Halo",
+    :sapp_flags "1",
+    :final "Sapp",
+    :gametype "Slayer",
+    :player-flags
+    {:friendly-fire-penalty 0,
+     :auto-team-balance false,
+     :invisible-players false,
+     :friend-indicators true,
+     :starting-equipment "Custom",
+     :infinite-grenades false,
+     :suicide-penalty 0,
+     :respawn-growth 0,
+     :respawn-time 0,
+     :friendly-fire "On",
+     :indicator "Motion Tracker",
+     :other-players-on-radar "All",
+     :maximum-health "100%",
+     :lives ##Inf,
+     :weapon-set "Normal",
+     :odd-man-out false,
+     :shields true},
+    :gamevariant "Slayer",
+    :hostport 2302,
+    :teamplay false,
+    :game-flags
+    {:game-type "Slayer",
+     :death-bonus false,
+     :kill-penalty false,
+     :kill-in-order false},
+    :mapname "bloodgulch",
+    :nextmap "",
+    :players [{:name "New001", :score 0, :ping 32, :team 0}],
+    :gamever "01.00.10.0621",
+    :dedicated true,
+    :sapp "10.1 RC1 CE"}
+#+end_src
+
+* License
+
+Copyright © 2024 Adam Mertzenich
+
+Available under the terms of the Eclipse Public License 2.0, see `LICENSE`.
