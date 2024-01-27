@@ -1,5 +1,7 @@
 * Halo Server Query
 
+#+html: <a href="https://clojars.org/ch.mertzeni/halo-query"><img src="https://img.shields.io/clojars/v/ch.mertzeni/halo-query.svg" alt="Clojars Project"></img></a>
+
 A Clojure library designed to query Halo Custom Edition servers.
 
 * Usage
@@ -60,4 +62,4 @@ A Clojure library designed to query Halo Custom Edition servers.
 
 Copyright © 2024 Adam Mertzenich
 
-Available under the terms of the Eclipse Public License 2.0, see `LICENSE`.
+Available under the terms of the Eclipse Public License 2.0, see =LICENSE=.
