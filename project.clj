@@ -1,4 +1,4 @@
-(defproject ch.mertzeni/halo-query "1.0.0-SNAPSHOT"
+(defproject ch.mertzeni/halo-query "1.0.0"
   :description "Query Halo Custom Edition servers"
   :url "https://github.com/Mertzenich/halo-query-clj"
   :license {:name "EPL-2.0"
