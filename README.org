@@ -58,8 +58,16 @@ A Clojure library designed to query Halo Custom Edition servers.
     :sapp "10.1 RC1 CE"}
 #+end_src
 
+* Credits / Similar Projects
+
+- [[https://github.com/Chaosvex/Halo-Status][Halo Status by Chaosvex]]: Original decoding of flags
+- [[https://github.com/TagiaNetwork/Halo-Server-Query][Halo Server Query by TagiaNetwork]]: Primary predecessor, provides a Python implementation
+- [[https://github.com/Sigmmma/HaloQuery][Halo Query by Sigmmma]]: Light inspiration, provides a NodeJS implementation
+
 * License
 
 Copyright © 2024 Adam Mertzenich
 
 Available under the terms of the Eclipse Public License 2.0, see =LICENSE=.
+
+#  LocalWords:  HaloStatus Chaosvex Sigmmma NodeJS
